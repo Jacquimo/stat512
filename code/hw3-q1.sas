@@ -47,8 +47,8 @@ run;
 title2 '1/V Regression Line';
 proc reg data=altered;
 	model vinv = cinv;
+	output out=resid
+		r = vresid;
 run;
 
-/* Part e.) */
-proc reg 
 
