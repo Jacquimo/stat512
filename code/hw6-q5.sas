@@ -16,3 +16,5 @@ proc reg data = residences;
 	SameLine: test isCorner, valuationIsCorner;
 run;
 
+title3 'Scatter Plot of CS Data';
+
