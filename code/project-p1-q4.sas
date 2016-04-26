@@ -14,7 +14,7 @@ data dataset_alt;
 	drop INF;
 	rename INF_new = INF;
 
-	SUM = QUES + DEV;
+	SUM = LEGAL + DEV;
 run;
 proc print data=dataset_alt; run;
 
